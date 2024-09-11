@@ -10,7 +10,7 @@ public class logica {
 	private JButton[][] tablero = new JButton[getDim()][getDim()];
 	
 	private boolean estaCompleto() {
-	    int referencia = 1;  // Comenzamos con el número 1
+	    int referencia = 1;  // Comenzamos con el numero 1
 
 	    for (int fila = 0; fila < DIM; fila++) {
 	        for (int columna = 0; columna < DIM; columna++) {
